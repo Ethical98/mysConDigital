@@ -3,4 +3,4 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Test from './Test';
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(<Test />, document.querySelector('#root'));

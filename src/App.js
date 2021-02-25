@@ -30,123 +30,153 @@ const App = () => {
   return (
     <div>
       <div className='container-fluid bg '>
-        <nav id='navbar' className='navbar navbar-expand-lg  fixed-top '>
+        <nav
+          id='navbar'
+          className='navbar navbar-expand-lg fixed-top '
+        >
           <div className='container'>
             <a className='navbar-brand' href='#'>
               <img src={image} alt='' width='50' height='auto' />
             </a>
-
-            <ul id='link' className='nav navbar-nav navbar-right'>
-              <li className='dropdown nav-item dropbtn' data-toggle='dropdown'>
-                <a className='nav-link' href='#'>
-                  <b>Business</b>
-                </a>
-                <div
-                  class='dropdown-menu fade-down'
-                  aria-labelledby='dropdownMenuLink'
+            <button
+              class='navbar-toggler'
+              type='button'
+              data-bs-toggle='collapse'
+              data-bs-target='#link'
+              aria-controls='link'
+              aria-expanded='false'
+              aria-label='Toggle navigation'
+            >
+              <span class='navbar-toggler-icon'></span>
+            </button>
+            <div collapse navbar-collapse id='link'>
+              <ul className=' navbar-nav'>
+                <li
+                  className='dropdown nav-item dropbtn'
+                  data-toggle='dropdown'
                 >
-                  <a class='dropdown-item' href='#'>
-                    Action
+                  <a className='nav-link' href='#'>
+                    <b>Business</b>
                   </a>
-                  <a class='dropdown-item' href='#'>
-                    Another action
-                  </a>
-                  <a class='dropdown-item' href='#'>
-                    Something else here
-                  </a>
-                </div>
-              </li>
-
-              <li className='dropdown nav-item dropbtn' data-toggle='dropdown'>
-                <a className='nav-link' href='#'>
-                  <b id='text1' className='link-text'>
-                    Industries
-                  </b>
                   <div
-                    class='dropdown-menu fade-up'
+                    className='dropdown-menu fade-down'
                     aria-labelledby='dropdownMenuLink'
                   >
-                    <a class='dropdown-item' href='#'>
+                    <a className='dropdown-item' href='#'>
                       Action
                     </a>
-                    <a class='dropdown-item' href='#'>
+                    <a className='dropdown-item' href='#'>
                       Another action
                     </a>
-                    <a class='dropdown-item' href='#'>
+                    <a className='dropdown-item' href='#'>
                       Something else here
                     </a>
                   </div>
-                </a>
-              </li>
-              <li className='dropdown nav-item dropbtn' data-toggle='dropdown'>
-                <a className='nav-link' href='#'>
-                  <b id='text2' className='link-text'>
-                    Knowledge Center
-                  </b>
-                </a>
-                <div
-                  class='dropdown-menu fade-up'
-                  aria-labelledby='dropdownMenuLink'
+                </li>
+
+                <li
+                  className='dropdown nav-item dropbtn'
+                  data-toggle='dropdown'
                 >
-                  <a class='dropdown-item' href='#'>
-                    Action
+                  <a className='nav-link' href='#'>
+                    <b id='text1' className='link-text'>
+                      Industries
+                    </b>
+                    <div
+                      className='dropdown-menu fade-up'
+                      aria-labelledby='dropdownMenuLink'
+                    >
+                      <a className='dropdown-item' href='#'>
+                        Action
+                      </a>
+                      <a className='dropdown-item' href='#'>
+                        Another action
+                      </a>
+                      <a className='dropdown-item' href='#'>
+                        Something else here
+                      </a>
+                    </div>
                   </a>
-                  <a class='dropdown-item' href='#'>
-                    Another action
-                  </a>
-                  <a class='dropdown-item' href='#'>
-                    Something else here
-                  </a>
-                </div>
-              </li>
-              <li className='dropdown nav-item dropbtn' data-toggle='dropdown'>
-                <a className='nav-link' href='#'>
-                  <b id='text3' className='link-text'>
-                    Career
-                  </b>
-                </a>
-                <div
-                  class='dropdown-menu fade-up '
-                  aria-labelledby='dropdownMenuLink'
+                </li>
+                <li
+                  className='dropdown nav-item dropbtn'
+                  data-toggle='dropdown'
                 >
-                  <a class='dropdown-item' href='#'>
-                    Action
+                  <a className='nav-link' href='#'>
+                    <b id='text2' className='link-text'>
+                      Knowledge Center
+                    </b>
                   </a>
-                  <a class='dropdown-item' href='#'>
-                    Another action
-                  </a>
-                  <a class='dropdown-item' href='#'>
-                    Something else here
-                  </a>
-                </div>
-              </li>
-              <li className='dropdown nav-item dropbtn' data-toggle='dropdown'>
-                <a className='nav-link' href='#'>
-                  <b>Company</b>
-                </a>
-                <div
-                  class='dropdown-menu fade-up'
-                  aria-labelledby='dropdownMenuLink'
+                  <div
+                    className='dropdown-menu fade-up'
+                    aria-labelledby='dropdownMenuLink'
+                  >
+                    <a className='dropdown-item' href='#'>
+                      Action
+                    </a>
+                    <a className='dropdown-item' href='#'>
+                      Another action
+                    </a>
+                    <a className='dropdown-item' href='#'>
+                      Something else here
+                    </a>
+                  </div>
+                </li>
+                <li
+                  className='dropdown nav-item dropbtn'
+                  data-toggle='dropdown'
                 >
-                  <a class='dropdown-item' href='#'>
-                    Action
+                  <a className='nav-link' href='#'>
+                    <b id='text3' className='link-text'>
+                      Career
+                    </b>
                   </a>
-                  <a class='dropdown-item' href='#'>
-                    Another action
+                  <div
+                    className='dropdown-menu fade-up '
+                    aria-labelledby='dropdownMenuLink'
+                  >
+                    <a className='dropdown-item' href='#'>
+                      Action
+                    </a>
+                    <a className='dropdown-item' href='#'>
+                      Another action
+                    </a>
+                    <a className='dropdown-item' href='#'>
+                      Something else here
+                    </a>
+                  </div>
+                </li>
+                <li
+                  className='dropdown nav-item dropbtn'
+                  data-toggle='dropdown'
+                >
+                  <a className='nav-link' href='#'>
+                    <b>Company</b>
                   </a>
-                  <a class='dropdown-item' href='#'>
-                    Something else here
-                  </a>
-                </div>
-              </li>
-              <li className='nav-item'>
-                <button className='btn btn-primary nav-link' href='#'>
-                  <span id='text5' className='link-text'>
-                    Sign Up
-                  </span>
-                </button>
-              </li>
-            </ul>
+                  <div
+                    className='dropdown-menu fade-up'
+                    aria-labelledby='dropdownMenuLink'
+                  >
+                    <a className='dropdown-item' href='#'>
+                      Action
+                    </a>
+                    <a className='dropdown-item' href='#'>
+                      Another action
+                    </a>
+                    <a className='dropdown-item' href='#'>
+                      Something else here
+                    </a>
+                  </div>
+                </li>
+                <li className='nav-item'>
+                  <button className='btn btn-primary nav-link' href='#'>
+                    <span id='text5' className='link-text'>
+                      Sign Up
+                    </span>
+                  </button>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
         <div className='title'>
@@ -155,20 +185,18 @@ const App = () => {
             <br />
           </span>
 
-          <span className='tagline'>
-            Intelligent recruitment starts with us
-          </span>
+          <p className='tagline'>Intelligent recruitment starts with us</p>
         </div>
         <div className='buttons'>
-          <button type='button' class='btn btn-success btn-lg btn_1'>
+          <button type='button' className='btn btn-success btn-lg btn_1'>
             Country1
           </button>
-          <button type='button' class='btn btn-success btn-lg btn_2'>
+          <button type='button' className='btn btn-success btn-lg btn_2'>
             Country2
           </button>
         </div>
       </div>
-      <div className='container section_2'>
+      <section className='container section_2'>
         Who We Are? <br />
         <p>
           No matter how out-of-the-world your business idea is, you still cannot
@@ -190,8 +218,8 @@ const App = () => {
           100% customized solution is exactly why you should swear by us when it
           comes to any and all recruitment requirements in your company.
         </p>
-      </div>
-      <div className="section_3">
+      </section>
+      <div className='container section_3'>
         What We Do?
         <br />
         <button type='button' className='btn btn-primary btn-lg'>
