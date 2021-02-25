@@ -35,7 +35,6 @@ const App = () => {
             <a className='navbar-brand' href='#'>
               <img src={image} alt='' width='50' height='auto' />
             </a>
-            <div></div>
 
             <ul id='link' className='nav navbar-nav navbar-right'>
               <li className='dropdown nav-item dropbtn' data-toggle='dropdown'>
@@ -150,6 +149,54 @@ const App = () => {
             </ul>
           </div>
         </nav>
+        <div className='title'>
+          <span>
+            MysCon Digital
+            <br />
+          </span>
+
+          <span className='tagline'>
+            Intelligent recruitment starts with us
+          </span>
+        </div>
+        <div className='buttons'>
+          <button type='button' class='btn btn-success btn-lg btn_1'>
+            Country1
+          </button>
+          <button type='button' class='btn btn-success btn-lg btn_2'>
+            Country2
+          </button>
+        </div>
+      </div>
+      <div className='container section_2'>
+        Who We Are? <br />
+        <p>
+          No matter how out-of-the-world your business idea is, you still cannot
+          achieve any of that without a committed and talented team. At
+          ScaleneWorks, we promise to provide you with not just the best talent
+          but also the one that’s customized and fit specifically for your
+          company.
+          <br /> Started in 2010, we are one of the fastest evolving Recruiting
+          Process Redesigning and Outsourcing organization which has expanded to
+          both global and domestic staffing services, aiming to be an
+          international company in no time. Today, Scalene is managing Talent
+          Acquisition processes for some marquee, global brands and has already
+          marked our presence through growth & sustainability.
+          <br /> We formulated customization into three parameters and used
+          Scalene as a metaphor for the three different sided and angled
+          triangle. The three sides are Process Maturity, People Capacity and
+          Technology Adoption and the percentage mix determined by the angles
+          are Quality, Cost and Effort. Our core competency being excelling in
+          100% customized solution is exactly why you should swear by us when it
+          comes to any and all recruitment requirements in your company.
+        </p>
+      </div>
+      <div className="section_3">
+        What We Do?
+        <br />
+        <button type='button' className='btn btn-primary btn-lg'>
+          Company Profile
+        </button>
       </div>
     </div>
   );
